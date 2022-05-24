@@ -1,0 +1,141 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: lightgrey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;
+    ;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+nav ul li a:hover {
+    font-size: 32px;
+    border-bottom: 2px solid red;
+}
+
+h1 {
+    display: inline-block;
+    ;
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.contenedor2 {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor2>div {
+    width: 46%;
+    padding: 10px;
+}
+
+.contenedor2>div:first-child {
+    margin-right: 20px;
+}
+
+.content-main {
+    position: absolute;
+    top: 150px;
+}
+
+#parrafo1 {
+    background: white;
+    color: black;
+    flex-direction: column;
+    flex-basis: auto;
+    margin-left: 200px;
+    padding: 5px;
+    width: 70%;
+    border-radius: 3px;
+}
+
+p {
+    text-align: justify;
+    width: 70%;
+    margin-left: 90px;
+}
+
+h3 {
+    font-family: 'koulen';
+}
+
+.formulario {
+    background-color: gray;
+    width: 300px;
+    height: 380px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+#contacto {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+}
+
+.input-formulario {
+    width: 85%;
+    margin-top: 15px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.boton-formulario {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0d6efd;
+}
+
+.textarea-formulario {
+    width: 85%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.titulo-formulario {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 5px;
+    height: 40%;
+}
